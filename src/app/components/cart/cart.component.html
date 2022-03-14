@@ -1,0 +1,19 @@
+<h2>Cart Items</h2>
+<div *ngIf="cartItems.length >= 1; else noRecord">
+    <ng-container *ngFor="let data of cartItems; let i = index;">
+        <mat-grid-list *ngIf="data.quantitySelected >= 1;" cols="3" rowHeight="100px">
+            <mat-grid-tile> {{data.product}} </mat-grid-tile>
+            <mat-grid-tile> {{data.quantitySelected}} </mat-grid-tile>
+            <mat-grid-tile (click)="removeItemFromCart(data, i)">
+                <mat-icon>remove_circle_outline</mat-icon>
+            </mat-grid-tile>
+        </mat-grid-list>
+        <hr>
+    </ng-container>
+    <div>
+        <strong>Total Price: <span class="float-right">{{totalPrice}}</span></strong>
+    </div>
+</div>
+<ng-template #noRecord>
+    <h4>Your cart is empty</h4>
+</ng-template>

@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-elevation-z8 {
+    width: 70%;
+}
+
+.mr-b {
+    margin-bottom: 1rem;
+}
+
+.mr-t {
+    margin-top: 1rem;
+}
+
+.cdk-overlay-backdrop.cdk-overlay-backdrop-showing {
+    opacity: 0.5;
+}
+
+.mat-dialog-container {
+    position: absolute;
+    width: 22rem !important;
+    height: auto !important;
+    top: 3.5rem;
+    float: right;
+    right: 1rem;
+    padding: 1rem;
+}
+
+.mat-grid-tile {
+    height: 2rem !important;
+    width: 5rem !important;
+}
+
+.mat-grid-list {
+    min-height: 2rem !important;
+    max-height: 2rem !important;
+}
+
+.float-right {
+    position: absolute;
+    float: right;
+    right: 1rem;
+}

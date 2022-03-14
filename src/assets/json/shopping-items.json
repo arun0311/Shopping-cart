@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "product": "Pencil",
+            "color": "Red",
+            "totalQuantity": "100",
+            "price": "10"
+        },
+        {
+            "product": "Pen",
+            "color": "Blue",
+            "totalQuantity": "200",
+            "price": "50"
+        },
+        {
+            "product": "Bat",
+            "color": "Green",
+            "totalQuantity": "50",
+            "price": "1000"
+        },
+        {
+            "product": "Eraser",
+            "color": "Pink",
+            "totalQuantity": "150",
+            "price": "5"
+        }
+    ]
+}
